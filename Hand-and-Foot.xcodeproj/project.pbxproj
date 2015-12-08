@@ -17,6 +17,7 @@
 		82F698651C1738A300A97238 /* Hand_and_FootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698641C1738A300A97238 /* Hand_and_FootTests.swift */; };
 		82F698701C1738A300A97238 /* Hand_and_FootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6986F1C1738A300A97238 /* Hand_and_FootUITests.swift */; };
 		82F6987E1C173A5700A97238 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6987D1C173A5700A97238 /* StartScene.swift */; };
+		82F698801C17401500A97238 /* Main_menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6987F1C17401500A97238 /* Main_menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		82F6986F1C1738A300A97238 /* Hand_and_FootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand_and_FootUITests.swift; sourceTree = "<group>"; };
 		82F698711C1738A300A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82F6987D1C173A5700A97238 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		82F6987F1C17401500A97238 /* Main_menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				82F698581C1738A300A97238 /* LaunchScreen.storyboard */,
 				82F6985B1C1738A300A97238 /* Info.plist */,
 				82F6987D1C173A5700A97238 /* StartScene.swift */,
+				82F6987F1C17401500A97238 /* Main_menu.swift */,
 			);
 			path = "Hand-and-Foot";
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82F698801C17401500A97238 /* Main_menu.swift in Sources */,
 				82F698501C1738A300A97238 /* GameScene.swift in Sources */,
 				82F698521C1738A300A97238 /* GameViewController.swift in Sources */,
 				82F6984C1C1738A300A97238 /* AppDelegate.swift in Sources */,

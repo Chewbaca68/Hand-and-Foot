@@ -26,8 +26,10 @@ class StartScene: SKScene {
         touchanywhere.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMinY(self.frame)+150);
         touchanywhere.fontColor = UIColor.redColor()
         
-        
+        //set background color of the startscene
         self.backgroundColor = UIColor.blackColor()
+        
+        //adds label to screen
         self.addChild(handandfoot)
         self.addChild(touchanywhere)
     }
@@ -35,12 +37,12 @@ class StartScene: SKScene {
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         /* Called when a touch begins */
         
-        let gamescene = GameScene(size: self.size)
+        let mainscene = MainScene(size: self.size)
         let transition = SKTransition.flipHorizontalWithDuration(1.0)
         
-        gamescene.scaleMode = SKSceneScaleMode.AspectFill
+        mainscene.scaleMode = SKSceneScaleMode.AspectFill
         
-        self.scene?.view?.presentScene(gamescene, transition: transition)
+        self.scene?.view?.presentScene(mainscene, transition: transition)
         
         
         
