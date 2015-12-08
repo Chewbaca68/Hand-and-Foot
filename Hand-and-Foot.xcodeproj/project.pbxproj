@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82F6984C1C1738A300A97238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6984B1C1738A300A97238 /* AppDelegate.swift */; };
+		82F6984E1C1738A300A97238 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82F6984D1C1738A300A97238 /* GameScene.sks */; };
+		82F698501C1738A300A97238 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6984F1C1738A300A97238 /* GameScene.swift */; };
+		82F698521C1738A300A97238 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698511C1738A300A97238 /* GameViewController.swift */; };
+		82F698551C1738A300A97238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F698531C1738A300A97238 /* Main.storyboard */; };
+		82F698571C1738A300A97238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82F698561C1738A300A97238 /* Assets.xcassets */; };
+		82F6985A1C1738A300A97238 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82F698581C1738A300A97238 /* LaunchScreen.storyboard */; };
+		82F698651C1738A300A97238 /* Hand_and_FootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F698641C1738A300A97238 /* Hand_and_FootTests.swift */; };
+		82F698701C1738A300A97238 /* Hand_and_FootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F6986F1C1738A300A97238 /* Hand_and_FootUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82F698611C1738A300A97238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F698401C1738A200A97238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F698471C1738A200A97238;
+			remoteInfo = "Hand-and-Foot";
+		};
+		82F6986C1C1738A300A97238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82F698401C1738A200A97238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82F698471C1738A200A97238;
+			remoteInfo = "Hand-and-Foot";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		82F698481C1738A200A97238 /* Hand-and-Foot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hand-and-Foot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F6984B1C1738A300A97238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82F6984D1C1738A300A97238 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		82F6984F1C1738A300A97238 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		82F698511C1738A300A97238 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		82F698541C1738A300A97238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82F698561C1738A300A97238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82F698591C1738A300A97238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82F6985B1C1738A300A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F698601C1738A300A97238 /* Hand-and-FootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hand-and-FootTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F698641C1738A300A97238 /* Hand_and_FootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand_and_FootTests.swift; sourceTree = "<group>"; };
+		82F698661C1738A300A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F6986B1C1738A300A97238 /* Hand-and-FootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hand-and-FootUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82F6986F1C1738A300A97238 /* Hand_and_FootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand_and_FootUITests.swift; sourceTree = "<group>"; };
+		82F698711C1738A300A97238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82F698451C1738A200A97238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6985D1C1738A300A97238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F698681C1738A300A97238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82F6983F1C1738A200A97238 = {
+			isa = PBXGroup;
+			children = (
+				82F6984A1C1738A300A97238 /* Hand-and-Foot */,
+				82F698631C1738A300A97238 /* Hand-and-FootTests */,
+				82F6986E1C1738A300A97238 /* Hand-and-FootUITests */,
+				82F698491C1738A200A97238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82F698491C1738A200A97238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82F698481C1738A200A97238 /* Hand-and-Foot.app */,
+				82F698601C1738A300A97238 /* Hand-and-FootTests.xctest */,
+				82F6986B1C1738A300A97238 /* Hand-and-FootUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82F6984A1C1738A300A97238 /* Hand-and-Foot */ = {
+			isa = PBXGroup;
+			children = (
+				82F6984B1C1738A300A97238 /* AppDelegate.swift */,
+				82F6984D1C1738A300A97238 /* GameScene.sks */,
+				82F6984F1C1738A300A97238 /* GameScene.swift */,
+				82F698511C1738A300A97238 /* GameViewController.swift */,
+				82F698531C1738A300A97238 /* Main.storyboard */,
+				82F698561C1738A300A97238 /* Assets.xcassets */,
+				82F698581C1738A300A97238 /* LaunchScreen.storyboard */,
+				82F6985B1C1738A300A97238 /* Info.plist */,
+			);
+			path = "Hand-and-Foot";
+			sourceTree = "<group>";
+		};
+		82F698631C1738A300A97238 /* Hand-and-FootTests */ = {
+			isa = PBXGroup;
+			children = (
+				82F698641C1738A300A97238 /* Hand_and_FootTests.swift */,
+				82F698661C1738A300A97238 /* Info.plist */,
+			);
+			path = "Hand-and-FootTests";
+			sourceTree = "<group>";
+		};
+		82F6986E1C1738A300A97238 /* Hand-and-FootUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82F6986F1C1738A300A97238 /* Hand_and_FootUITests.swift */,
+				82F698711C1738A300A97238 /* Info.plist */,
+			);
+			path = "Hand-and-FootUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82F698471C1738A200A97238 /* Hand-and-Foot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F698741C1738A300A97238 /* Build configuration list for PBXNativeTarget "Hand-and-Foot" */;
+			buildPhases = (
+				82F698441C1738A200A97238 /* Sources */,
+				82F698451C1738A200A97238 /* Frameworks */,
+				82F698461C1738A200A97238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hand-and-Foot";
+			productName = "Hand-and-Foot";
+			productReference = 82F698481C1738A200A97238 /* Hand-and-Foot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82F6985F1C1738A300A97238 /* Hand-and-FootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F698771C1738A300A97238 /* Build configuration list for PBXNativeTarget "Hand-and-FootTests" */;
+			buildPhases = (
+				82F6985C1C1738A300A97238 /* Sources */,
+				82F6985D1C1738A300A97238 /* Frameworks */,
+				82F6985E1C1738A300A97238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F698621C1738A300A97238 /* PBXTargetDependency */,
+			);
+			name = "Hand-and-FootTests";
+			productName = "Hand-and-FootTests";
+			productReference = 82F698601C1738A300A97238 /* Hand-and-FootTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82F6986A1C1738A300A97238 /* Hand-and-FootUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82F6987A1C1738A300A97238 /* Build configuration list for PBXNativeTarget "Hand-and-FootUITests" */;
+			buildPhases = (
+				82F698671C1738A300A97238 /* Sources */,
+				82F698681C1738A300A97238 /* Frameworks */,
+				82F698691C1738A300A97238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82F6986D1C1738A300A97238 /* PBXTargetDependency */,
+			);
+			name = "Hand-and-FootUITests";
+			productName = "Hand-and-FootUITests";
+			productReference = 82F6986B1C1738A300A97238 /* Hand-and-FootUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82F698401C1738A200A97238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Baca_Family;
+				TargetAttributes = {
+					82F698471C1738A200A97238 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					82F6985F1C1738A300A97238 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 82F698471C1738A200A97238;
+					};
+					82F6986A1C1738A300A97238 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 82F698471C1738A200A97238;
+					};
+				};
+			};
+			buildConfigurationList = 82F698431C1738A200A97238 /* Build configuration list for PBXProject "Hand-and-Foot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82F6983F1C1738A200A97238;
+			productRefGroup = 82F698491C1738A200A97238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82F698471C1738A200A97238 /* Hand-and-Foot */,
+				82F6985F1C1738A300A97238 /* Hand-and-FootTests */,
+				82F6986A1C1738A300A97238 /* Hand-and-FootUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82F698461C1738A200A97238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F6984E1C1738A300A97238 /* GameScene.sks in Resources */,
+				82F6985A1C1738A300A97238 /* LaunchScreen.storyboard in Resources */,
+				82F698571C1738A300A97238 /* Assets.xcassets in Resources */,
+				82F698551C1738A300A97238 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6985E1C1738A300A97238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F698691C1738A300A97238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82F698441C1738A200A97238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F698501C1738A300A97238 /* GameScene.swift in Sources */,
+				82F698521C1738A300A97238 /* GameViewController.swift in Sources */,
+				82F6984C1C1738A300A97238 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F6985C1C1738A300A97238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F698651C1738A300A97238 /* Hand_and_FootTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F698671C1738A300A97238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82F698701C1738A300A97238 /* Hand_and_FootUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82F698621C1738A300A97238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F698471C1738A200A97238 /* Hand-and-Foot */;
+			targetProxy = 82F698611C1738A300A97238 /* PBXContainerItemProxy */;
+		};
+		82F6986D1C1738A300A97238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82F698471C1738A200A97238 /* Hand-and-Foot */;
+			targetProxy = 82F6986C1C1738A300A97238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82F698531C1738A300A97238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F698541C1738A300A97238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82F698581C1738A300A97238 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82F698591C1738A300A97238 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82F698721C1738A300A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82F698731C1738A300A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82F698751C1738A300A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hand-and-Foot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.Hand-and-Foot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		82F698761C1738A300A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Hand-and-Foot/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.Hand-and-Foot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		82F698781C1738A300A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Hand-and-FootTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.Hand-and-FootTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hand-and-Foot.app/Hand-and-Foot";
+			};
+			name = Debug;
+		};
+		82F698791C1738A300A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hand-and-FootTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.Hand-and-FootTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hand-and-Foot.app/Hand-and-Foot";
+			};
+			name = Release;
+		};
+		82F6987B1C1738A300A97238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Hand-and-FootUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.Hand-and-FootUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hand-and-Foot";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		82F6987C1C1738A300A97238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hand-and-FootUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Baca-Family.Hand-and-FootUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Hand-and-Foot";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82F698431C1738A200A97238 /* Build configuration list for PBXProject "Hand-and-Foot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698721C1738A300A97238 /* Debug */,
+				82F698731C1738A300A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82F698741C1738A300A97238 /* Build configuration list for PBXNativeTarget "Hand-and-Foot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698751C1738A300A97238 /* Debug */,
+				82F698761C1738A300A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82F698771C1738A300A97238 /* Build configuration list for PBXNativeTarget "Hand-and-FootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F698781C1738A300A97238 /* Debug */,
+				82F698791C1738A300A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		82F6987A1C1738A300A97238 /* Build configuration list for PBXNativeTarget "Hand-and-FootUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82F6987B1C1738A300A97238 /* Debug */,
+				82F6987C1C1738A300A97238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82F698401C1738A200A97238 /* Project object */;
+}
